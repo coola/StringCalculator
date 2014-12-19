@@ -66,4 +66,9 @@ describe("StringCalculator", function(){
         var stringCalculator = new StringCalculator();
         expect(stringCalculator.add("333,333, 333")).toBe(999);
     });
+
+    it("less complex example", function(){
+        var stringCalculator = new StringCalculator();
+        expect(stringCalculator.add("0,-1, 1")).toBe(0);
+    });
 });
