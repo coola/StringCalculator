@@ -1,3 +1,8 @@
+/*
+* String calculator kata
+* http://osherove.com/tdd-kata-1/
+*
+ * */
 function StringCalculator() {
 
     this.add = function (stringArgument) {
